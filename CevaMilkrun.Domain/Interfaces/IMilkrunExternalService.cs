@@ -1,9 +1,7 @@
-﻿using CevaMilkrun.Domain.Entities;
-
-namespace CevaMilkrun.Domain.Interfaces
+﻿namespace CevaMilkrun.Domain.Interfaces
 {
     public interface IMilkrunExternalService
-    { 
-        Task<MilkrunTrip?> GetTripDataByPhoneAsync(string phoneNumber);
+    {
+        Task<string> GetRawJsonAsync(string phoneNumber);
     }
 }
