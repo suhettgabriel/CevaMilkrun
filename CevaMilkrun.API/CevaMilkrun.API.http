@@ -1,0 +1,6 @@
+@CevaMilkrun.API_HostAddress = http://localhost:5093
+
+GET {{CevaMilkrun.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
